@@ -1,0 +1,540 @@
+{
+  "board": [
+    [
+      null,
+      null,
+      "r_black_m",
+      "q_black",
+      "k_black",
+      "b_black",
+      null,
+      "r_black"
+    ],
+    [
+      "p_black",
+      "p_black",
+      "p_black",
+      null,
+      null,
+      "p_black",
+      "p_black",
+      "p_black"
+    ],
+    [
+      null,
+      null,
+      "n_black_m",
+      "p_black_m",
+      "p_black_m",
+      "n_black_m",
+      "b_black_m",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "p_white_m",
+      "p_white_m",
+      null,
+      "p_white_m",
+      null
+    ],
+    [
+      null,
+      null,
+      "n_white_m",
+      null,
+      "b_white_m",
+      "n_white_m",
+      null,
+      "p_white_m"
+    ],
+    [
+      "p_white",
+      "p_white",
+      "p_white",
+      null,
+      "b_white_m",
+      "p_white",
+      null,
+      null
+    ],
+    [
+      "r_white",
+      null,
+      null,
+      "q_white",
+      "k_white",
+      null,
+      null,
+      "r_white"
+    ]
+  ],
+  "turn": "white",
+  "mode": "playerVsAI",
+  "moveHistory": [
+    {
+      "from": [
+        6,
+        4
+      ],
+      "to": [
+        4,
+        4
+      ],
+      "piece": {
+        "type": "p",
+        "color": "white",
+        "hasMoved": false,
+        "enPassantEligible": false
+      },
+      "notation": "-e4",
+      "move": {
+        "to": [
+          4,
+          4
+        ],
+        "special": null,
+        "isCapture": false,
+        "doubleStep": true
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        0,
+        6
+      ],
+      "to": [
+        2,
+        5
+      ],
+      "piece": {
+        "type": "n",
+        "color": "black",
+        "hasMoved": false
+      },
+      "notation": "N-f6",
+      "move": {
+        "to": [
+          2,
+          5
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        7,
+        1
+      ],
+      "to": [
+        5,
+        2
+      ],
+      "piece": {
+        "type": "n",
+        "color": "white",
+        "hasMoved": false
+      },
+      "notation": "N-c3",
+      "move": {
+        "to": [
+          5,
+          2
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        0,
+        1
+      ],
+      "to": [
+        2,
+        2
+      ],
+      "piece": {
+        "type": "n",
+        "color": "black",
+        "hasMoved": false
+      },
+      "notation": "N-c6",
+      "move": {
+        "to": [
+          2,
+          2
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        6,
+        3
+      ],
+      "to": [
+        4,
+        3
+      ],
+      "piece": {
+        "type": "p",
+        "color": "white",
+        "hasMoved": false,
+        "enPassantEligible": false
+      },
+      "notation": "-d4",
+      "move": {
+        "to": [
+          4,
+          3
+        ],
+        "special": null,
+        "isCapture": false,
+        "doubleStep": true
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        1,
+        3
+      ],
+      "to": [
+        2,
+        3
+      ],
+      "piece": {
+        "type": "p",
+        "color": "black",
+        "hasMoved": false,
+        "enPassantEligible": false
+      },
+      "notation": "-d6",
+      "move": {
+        "to": [
+          2,
+          3
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        7,
+        6
+      ],
+      "to": [
+        5,
+        5
+      ],
+      "piece": {
+        "type": "n",
+        "color": "white",
+        "hasMoved": false
+      },
+      "notation": "N-f3",
+      "move": {
+        "to": [
+          5,
+          5
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        0,
+        2
+      ],
+      "to": [
+        4,
+        6
+      ],
+      "piece": {
+        "type": "b",
+        "color": "black",
+        "hasMoved": false
+      },
+      "notation": "B-g4",
+      "move": {
+        "to": [
+          4,
+          6
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        7,
+        5
+      ],
+      "to": [
+        6,
+        4
+      ],
+      "piece": {
+        "type": "b",
+        "color": "white",
+        "hasMoved": false
+      },
+      "notation": "B-e2",
+      "move": {
+        "to": [
+          6,
+          4
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        1,
+        4
+      ],
+      "to": [
+        2,
+        4
+      ],
+      "piece": {
+        "type": "p",
+        "color": "black",
+        "hasMoved": false,
+        "enPassantEligible": false
+      },
+      "notation": "-e6",
+      "move": {
+        "to": [
+          2,
+          4
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        7,
+        2
+      ],
+      "to": [
+        5,
+        4
+      ],
+      "piece": {
+        "type": "b",
+        "color": "white",
+        "hasMoved": false
+      },
+      "notation": "B-e3",
+      "move": {
+        "to": [
+          5,
+          4
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        0,
+        2
+      ],
+      "piece": {
+        "type": "r",
+        "color": "black",
+        "hasMoved": false
+      },
+      "notation": "R-c8",
+      "move": {
+        "to": [
+          0,
+          2
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        6,
+        7
+      ],
+      "to": [
+        5,
+        7
+      ],
+      "piece": {
+        "type": "p",
+        "color": "white",
+        "hasMoved": false,
+        "enPassantEligible": false
+      },
+      "notation": "-h3",
+      "move": {
+        "to": [
+          5,
+          7
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        4,
+        6
+      ],
+      "to": [
+        3,
+        7
+      ],
+      "piece": {
+        "type": "b",
+        "color": "black",
+        "hasMoved": true,
+        "enPassantEligible": false
+      },
+      "notation": "B-h5",
+      "move": {
+        "to": [
+          3,
+          7
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        6,
+        6
+      ],
+      "to": [
+        4,
+        6
+      ],
+      "piece": {
+        "type": "p",
+        "color": "white",
+        "hasMoved": false,
+        "enPassantEligible": false
+      },
+      "notation": "-g4",
+      "move": {
+        "to": [
+          4,
+          6
+        ],
+        "special": null,
+        "isCapture": false,
+        "doubleStep": true
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    },
+    {
+      "from": [
+        3,
+        7
+      ],
+      "to": [
+        2,
+        6
+      ],
+      "piece": {
+        "type": "b",
+        "color": "black",
+        "hasMoved": true,
+        "enPassantEligible": false
+      },
+      "notation": "B-g6",
+      "move": {
+        "to": [
+          2,
+          6
+        ],
+        "special": null,
+        "isCapture": false
+      },
+      "check": null,
+      "checkmate": false,
+      "stalemate": false
+    }
+  ],
+  "capturedWhite": [],
+  "capturedBlack": [],
+  "gameOver": false,
+  "winner": null,
+  "moveCounterSincePawnOrCapture": 1,
+  "castlingDone": {
+    "white": false,
+    "black": true
+  }
+}
