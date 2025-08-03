@@ -111,7 +111,7 @@ h1 {
     height: 7.5vw;
     max-height: 60px;
     line-height: 7.5vw;
-    font-size: 5vw;
+    font-size: 7vw;
     text-align: center;
     vertical-align: middle;
     cursor: default;
@@ -122,11 +122,12 @@ h1 {
 }
 
 .square.light {
-    background-color: #00a5a7;
+    background-color: #ebd1a7;
 }
 .square.dark {
-    background-color: #0053bb;
+    background-color: #b27b4f;
 }
+
 .square.highlight-move {
     box-shadow:
         inset 0 0 0 3px #aafeffaa,
@@ -340,7 +341,7 @@ button:disabled {
         width: 3vw;
         height: 3vw;
         line-height: 3vw;
-        font-size: 1.7vw;
+        font-size: 2.2vw;
         max-width: 5vw;
         max-height: 5vw;
     }
@@ -387,7 +388,7 @@ button:disabled {
         width: 10vw;
         height: 10vw;
         line-height: 10vw;
-        font-size: 6vw;
+        font-size: 9vw;
         max-width: 15vw;
         max-height: 15vw;
     }
@@ -430,7 +431,7 @@ button:disabled {
         width: 10vw;
         height: 10vw;
         line-height: 10vw;
-        font-size: 6vw;
+        font-size: 9vw;
         max-width: 15vw;
         max-height: 15vw;
     }
@@ -473,7 +474,7 @@ button:disabled {
         width: 10vw;
         height: 10vw;
         line-height: 10vw;
-        font-size: 6vw;
+        font-size: 9vw;
         max-width: 15vw;
         max-height: 15vw;
     }

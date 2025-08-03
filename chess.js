@@ -14,7 +14,7 @@
         r: "\u265C", // Rook ♜
         b: "\u265D", // Bishop ♝
         n: "\u265E", // Knight ♞
-        p: "\u265F" // Pawn ♟
+        p: "\u2659" // Pawn ♟
     };
     const blackSymbols = {
         k: "\u265A", // King ♚
@@ -22,7 +22,7 @@
         r: "\u265C", // Rook ♜
         b: "\u265D", // Bishop ♝
         n: "\u265E", // Knight ♞
-        p: "\u265F" // Pawn ♟
+        p: "\u2659" // Pawn ♟
     };
     const pieceValue = { p: 100, n: 300, b: 320, r: 500, q: 900, k: 10000 };
     const HIGHLIGHT_MOVE = "highlight-move";
@@ -229,13 +229,13 @@
                 if (piece) {
                     if (piece.color === "white") {
                         square.textContent = whiteSymbols[piece.type];
-                        square.style.color = "white";
-                        square.style.fontWeight = "200";
+                        square.style.color = "#f4fbff";
+                        square.style.fontWeight = "500";
                         square.classList.remove("empty");
                     } else {
                         square.textContent = blackSymbols[piece.type];
                         square.style.color = "black";
-                        square.style.fontWeight = "600";
+                        square.style.fontWeight = "500";
                         square.classList.remove("empty");
                     }
                 } else {
