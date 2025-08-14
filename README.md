@@ -17,7 +17,7 @@ https://jacekbwwa.github.io/Chess-AI-minimax-JB/index.html
 #### Board description:
 - The board consists of 64 squares, alternating 32 dark and 32 light squares.
 - Each player starts the game with 16 chess pieces placed on the board: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, and 8 pawns. One player has black pieces, and the other white pieces. In "Player vs. AI" mode, the player has white pieces and the AI has black pieces. The white piece moves first.
-- Pieces are represented on the board using HTML symbols.
+- The pieces on the board are represented by chess symbols.
  
 #### Buttons description:
 - “Two Players” button – When pressed, the system initiates a chess game between two players (two-player mode).
@@ -49,26 +49,33 @@ https://jacekbwwa.github.io/Chess-AI-minimax-JB/index.html
 ## Screenshot - game in "Player vs AI" mode
 ![Screenshot](screenshot3.png)
 
-## Screenshot - game in "Player vs AI" mode, after pressing the "Save as" button the game is saved to the file "chess_2025-08-02T13-25-46.810Z.json".
+## Screenshot - game in "Player vs AI" mode, after pressing the "Save as" button the game is saved to the file "chess_2025-08-14T19-37-26.072Z.json".
 ![Screenshot](screenshot4.png)
 
 ## Screenshot - game in "Player vs AI" mode, History button pressed
 ![Screenshot](screenshot5.png)
 
-![Screenshot](screenshot6.png)
+![Screenshot](screenshot5a.png)
 
-## Screenshot - game in "Two players" mode, the black king is in check
+## Screenshot - game in "Two players" mode, the white king is in check
 ![Screenshot](screenshot7.png)
 
-## Screenshot - game in "Two players" mode, the black king is in checkmate, the white player wins
+## Screenshot - game in "Two players" mode, the black king is in check
 ![Screenshot](screenshot8.png)
 
-
-## Screenshot - game in "Two players" mode, the black pawn has the option to play "en passant" (marked with a red frame)
+## Screenshot - game in "Two players" mode, black pawn is promoted
 ![Screenshot](screenshot9.png)
 
-## Screenshot - game in "Two players" mode, white pawn is promoted
+## Screenshot - game in "Two players" mode, the white pawn has the option to play "en passant" (marked with a red frame)
+![Screenshot](screenshot12.png)
+
+## Screenshot - game in "Two players" mode, the black king is in checkmate, the white player wins
 ![Screenshot](screenshot10.png)
+
+
+
+
+
 
 ## Technologies Used
 - HTML/CSS

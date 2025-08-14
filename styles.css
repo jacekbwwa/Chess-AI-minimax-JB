@@ -346,7 +346,7 @@ button:disabled {
         max-height: 5vw;
     }
     
-    img {
+   .square img {
 	width: 2vw;
 	height: 2vw;
 }
@@ -398,7 +398,7 @@ button:disabled {
         max-width: 15vw;
         max-height: 15vw;
     }
-        img {
+    .square img {
 	width: 8vw;
 	height: 8vw;
 }
@@ -445,7 +445,7 @@ button:disabled {
         max-width: 15vw;
         max-height: 15vw;
     }
-        img {
+   .square img {
 	width: 8vw;
 	height: 8vw;
 }
@@ -492,7 +492,7 @@ button:disabled {
         max-width: 15vw;
         max-height: 15vw;
     }
-        img {
+    .square img {
 	width: 8vw;
 	height: 8vw;
 }
