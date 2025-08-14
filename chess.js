@@ -228,12 +228,14 @@
                 const piece = gameState.board[r][c];
                 if (piece) {
                     if (piece.color === "white") {
-                        square.textContent = whiteSymbols[piece.type];
+                       //square.textContent = whiteSymbols[piece.type];
+                        square.innerHTML = `<img src="img/${piece.color}-${piece.type}.png">`;
                         square.style.color = "#f4fbff";
                         square.style.fontWeight = "500";
                         square.classList.remove("empty");
                     } else {
-                        square.textContent = blackSymbols[piece.type];
+                        //square.textContent = blackSymbols[piece.type];
+                        square.innerHTML = `<img src="img/${piece.color}-${piece.type}.png">`;
                         square.style.color = "black";
                         square.style.fontWeight = "500";
                         square.classList.remove("empty");
